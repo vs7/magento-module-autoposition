@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <vs7_autoposition>
+            <title>VS7</title>
+            <sort_order>71</sort_order>
+            <children>
+                <items>
+                    <title>AutoPosition</title>
+                    <sort_order>0</sort_order>
+                    <action>adminhtml/increment</action>
+                </items>
+            </children>
+        </vs7_autoposition>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <vs7_autoposition>
+                        <title>VS7 AutoPosition</title>
+                        <sort_order>10</sort_order>
+                    </vs7_autoposition>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
